@@ -1,0 +1,17 @@
+body { font-family: Arial, sans-serif; padding: 20px; }
+.container { max-width: 900px; margin: 0 auto; }
+.search { display:flex; gap:8px; margin-bottom: 16px }
+input { flex:1; padding:8px }
+button { padding:8px 12px }
+table { width:100%; border-collapse: collapse; margin-top:12px }
+th, td { text-align:left; border:1px solid #ddd; padding:8px }
+th { background:#f7f7f7 }
+
+.customization { background:#fbfbfb; padding:12px; border:1px solid #eee; margin-bottom:16px }
+.customization .row { display:flex; gap:8px; align-items:center; margin:8px 0 }
+.customization label { margin-right:6px }
+.note { color:#666; font-size:0.9em }
+
+.breakdown { background:#fff; padding:8px; border-radius:4px }
+.breakdown-row td { background:#fcfcfc }
+.breakdown ul { margin:6px 0 0 16px }
